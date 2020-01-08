@@ -1,0 +1,76 @@
+* {
+    margin: 0%;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("poke.jpg");
+    background-repeat: no-repeat;
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+#pre {
+    border: solid 2px black;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+
+#sui {
+    border: solid 2px black;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+
+#affiche {
+    border: solid 2px black;
+    background-color: yellow;
+    color: black;
+    padding: 20px;
+}
+
+#tableau {
+    display: flex;
+    justify-content: center;
+}
+
+#liste {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: red 2px solid;
+    background-color: rgba(0, 0, 0, 0.637);
+    color: white;
+    width: 800px;
+    height: 780px;
+    padding: 20px;
+}
+
+#param {
+    border: red 2px solid;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.637);
+    color: white;
+    width: 800px;
+    height: 780px;
+    padding: 20px;
+}
+
+#nom {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.637);
+}
